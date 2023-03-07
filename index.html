@@ -1,13 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <link rel="icon" type="image/svg+xml" href="./src/assets/code.png" />
+    <title>Sebastian Gomez | Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./figures_styles.css" />
+    <link rel="stylesheet" href="/src/App.css" />
   </head>
+  <script src="./figures.js"></script>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <nav>
+      <div class="name">
+        <a>Sebastian Gomez</a>
+      </div>
+      <div class="options">
+        <a href="#">Home</a>
+        <a href="#">About me</a>
+        <a href="#">Skills</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+    <header class="header">
+      <div>
+        <canvas class="background"></canvas>
+        <div class="header__introduction">
+          <h1 class="typed"></h1>
+        </div>
+      </div>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="./background.js"></script>
+    <script>
+      // Run Background.
+      window.onload = function () {
+        Particles.init({
+          selector: ".background",
+          color: "#87b7ff",
+          maxParticles: 110,
+          connectParticles: true,
+          responsive: [
+            {
+              breakpoint: 947,
+              options: {
+                maxParticles: 100,
+              },
+            },
+            {
+              breakpoint: 847,
+              options: {
+                maxParticles: 90,
+              },
+            },
+            {
+              breakpoint: 647,
+              options: {
+                maxParticles: 76,
+              },
+            },
+            {
+              breakpoint: 477,
+              options: {
+                maxParticles: 46,
+              },
+            },
+            {
+              breakpoint: 300,
+              options: {
+                maxParticles: 26,
+              },
+            },
+          ],
+        });
+      };
+    </script>
   </body>
 </html>
