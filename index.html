@@ -12,14 +12,62 @@
       href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./figures_styles.css" />
     <link rel="stylesheet" href="/src/App.css" />
   </head>
-  <script src="./figures.js"></script>
   <body>
-    <nav>
+    <header id="home" class="header">
+      <div>
+        <canvas class="background"></canvas>
+        <div class="header__introduction">
+          <div class="typing">
+            <h1 style="overflow: hidden" class="typed"></h1>
+          </div>
+          <div class="social-media">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/sebastian-gomez-60628b250/"
+            >
+              <i id="linkedin" class="fa-brands fa-linkedin"> </i>
+            </a>
+            <a
+              target="_blank"
+              href="https://api.whatsapp.com/send?phone=573246363723"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a target="_blank" href="https://github.com/SEGR02">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <div class="cv">
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1dvaj33r-rSj5cOnvh5ba77l7Y03s58kx/view"
+            >
+              <button class="homeButton">Download CV</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="./background.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script
+      src="https://kit.fontawesome.com/a6dbc01c9d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <nav>
       <div class="name">
-        <a>Sebastian Gomez</a>
+        <a href="#">Sebastian Gomez</a>
       </div>
       <div class="options">
         <a href="#">Home</a>
@@ -81,6 +129,6 @@
           ],
         });
       };
-    </script>
+    </script> -->
   </body>
 </html>

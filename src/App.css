@@ -4,9 +4,8 @@
 
 nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 10vh;
+  flex-direction: column;
+  height: fit-content;
   background-color: black;
   z-index: 1;
   position: fixed; /* Set the navbar to fixed position */
@@ -14,10 +13,6 @@ nav {
   width: 100%; /*Full width */
   /*overflow: hidden;
   background-color: #a061c3; */
-}
-
-nav a {
-  text-decoration: none;
 }
 
 a:hover {
@@ -39,6 +34,7 @@ a:hover {
 }
 
 a {
+  text-decoration: none;
   margin: 0 10px 0 10px;
 }
 
@@ -71,4 +67,190 @@ canvas {
 
 header {
   margin-top: 4.8%;
+}
+
+svg {
+  font-size: 50px;
+}
+
+svg:hover {
+  cursor: pointer;
+  fill-opacity: calc(75%);
+}
+
+i {
+  font-size: 1.5em;
+}
+
+.header__introduction {
+  height: 100%;
+}
+
+.typing {
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.social-media {
+  height: 10%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social-media a {
+  height: fit-content;
+  margin: 0 15px;
+}
+
+.cv {
+  height: 40%;
+}
+
+.homeButton {
+  background-color: transparent;
+  padding: 10px 50px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.homeButton:hover {
+  cursor: pointer;
+  opacity: calc(75%);
+  border: 1px solid white;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  background-color: black;
+  z-index: 1;
+  position: fixed; /* Set the navbar to fixed position */
+  /* top: 0; /* Position the navbar at the top of the page*/
+  width: 100%; /*Full width */
+  /* height: auto; */
+  /*overflow: hidden;
+  background-color: #a061c3; */
+}
+
+.menu {
+  background-color: black;
+  /* overflow-y: hidden; */
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  height: fit-content;
+  background-color: black;
+  z-index: 1;
+  /* position: fixed; Set the navbar to fixed position */
+  /* top: 0; /* Position the navbar at the top of the page*/
+  width: 100%; /*Full width */
+  /* height: auto; */
+  /*overflow: hidden;
+  background-color: #a061c3; */
+}
+
+.section1 {
+  background: radial-gradient(
+    circle,
+    rgba(76, 46, 124, 1) 10%,
+    rgba(39, 4, 57, 1) 90%
+  );
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 40px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 h1,
+.section1 p {
+  overflow: hidden;
+  color: white;
+}
+
+.section1 p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+
+.card {
+  border: #a061c3 3px solid;
+  padding: 10px;
+  border-radius: 10px;
+  width: 60%;
+  max-width: 520px;
+}
+
+.button {
+  width: 40%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.magic {
+  border: 0;
+  background-image: linear-gradient(150deg, #7a1fab, #4a2296, #297b8c);
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  overflow: hidden;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1.5rem;
+}
+
+.boton {
+  overflow: hidden;
+  background-color: black;
+  padding: 24px 40px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.magic:hover .boton {
+  background: none;
+}
+
+.magic:active {
+  transform: scale(0.9);
+}
+
+.author {
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 747px) {
+  nav .options {
+    display: none;
+  }
+
+  .mobile_options {
+    display: block;
+  }
+
+  .mobile_menu {
+    padding: 0;
+    border: none;
+  }
+
+  .mobile_menu:hover {
+    border: none;
+  }
 }

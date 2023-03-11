@@ -18,7 +18,7 @@ var typed = new Typed(".typed", {
   contentType: "html", // 'html' o 'null' para texto sin formato
 });
 
-console.clear();
+// console.clear();
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
@@ -155,7 +155,7 @@ function animate() {
     }
   }
 
-  console.log(pipes.length);
+  // console.log(pipes.length);
 
   requestAnimationFrame(animate);
 }
