@@ -5,7 +5,7 @@ export const SkillsSection = styled.section`
   padding: 0 200px 0 200px;
   padding-bottom: 15px;
   h1 {
-    padding-top: 15px;
+    padding-top: 30px;
     text-align: center;
     overflow: hidden;
   }
@@ -24,12 +24,20 @@ export const SkillsSection = styled.section`
     flex-direction: column;
     align-items: center;
   }
+  .icon img:hover {
+    filter: saturate(180%);
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    overflow: hidden;
+  }
   .icon p {
     padding-top: 5px;
     // font-size: 0.6rem;
   }
   .icons-container {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     margin: 25px 0 0 0;
     padding-bottom: 25px;

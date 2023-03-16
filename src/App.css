@@ -83,9 +83,11 @@ i {
 }
 
 .typing {
-  height: 50%;
+  height: 10%;
   display: flex;
   align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
 .social-media {
@@ -177,7 +179,8 @@ i {
 }
 
 .section1 h1 {
-  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .section1 p {

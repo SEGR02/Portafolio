@@ -18,6 +18,13 @@ import axiosIcon from "../assets/axios.png";
 import styled_componentsIcon from "../assets/styled-componentsCopy.png";
 import javaIcon from "../assets/java.png";
 import springIcon from "../assets/spring.png";
+import figmaIcon from "../assets/figma.png";
+import cloudinaryIcon from "../assets/cloudinary.png";
+import postmanIcon from "../assets/postman.png";
+import trelloIcon from "../assets/trello.png";
+import powershellIcon from "../assets/powershell.png";
+import jestIcon from "../assets/jest.png";
+import sassIcon from "../assets/sass.png";
 
 const Skills = () => {
   return (
@@ -60,7 +67,11 @@ const Skills = () => {
               </div>
               <div className="icon" style={{ marginLeft: "20px" }}>
                 <img width="85px" src={styled_componentsIcon} alt="React" />
-                <p>Styled-Components</p>
+                <p>StyleComponent</p>
+              </div>
+              <div className="icon" style={{ marginLeft: "20px" }}>
+                <img width="85px" src={sassIcon} alt="React" />
+                <p>Sass</p>
               </div>
             </div>
           </div>
@@ -95,6 +106,14 @@ const Skills = () => {
                 <img width="85px" src={springIcon} alt="React" />
                 <p>Spring</p>
               </div>
+              <div className="icon" style={{ marginLeft: "20px" }}>
+                <img width="85px" src={cloudinaryIcon} alt="React" />
+                <p>Cloudinary</p>
+              </div>
+              <div className="icon" style={{ marginLeft: "20px" }}>
+                <img width="85px" src={postmanIcon} alt="React" />
+                <p>Postman</p>
+              </div>
             </div>
           </div>
           <div>
@@ -111,6 +130,22 @@ const Skills = () => {
               <div className="icon" style={{ marginLeft: "20px" }}>
                 <img width="85px" src={githubIcon} alt="React" />
                 <p>GitHub</p>
+              </div>
+              <div className="icon" style={{ marginLeft: "20px" }}>
+                <img width="85px" src={figmaIcon} alt="React" />
+                <p>Figma</p>
+              </div>
+              <div className="icon" style={{ marginLeft: "20px" }}>
+                <img width="85px" src={trelloIcon} alt="React" />
+                <p>Trello</p>
+              </div>
+              <div className="icon" style={{ marginLeft: "20px" }}>
+                <img width="85px" src={powershellIcon} alt="React" />
+                <p>PowerShell</p>
+              </div>
+              <div className="icon" style={{ marginLeft: "20px" }}>
+                <img width="85px" src={jestIcon} alt="React" />
+                <p>Jest</p>
               </div>
             </div>
           </div>

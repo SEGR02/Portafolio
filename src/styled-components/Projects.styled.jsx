@@ -6,7 +6,7 @@ export const ProjectsSection = styled.section`
     rgba(76, 46, 124, 1) 10%,
     rgba(39, 4, 57, 1) 90%
   );
-  padding: 0 150px 50px 150px;
+  padding: 0 150px 350px 150px;
   h1 {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -70,9 +70,9 @@ export const ProjectsSection = styled.section`
   .cardContainer {
     position: relative;
     width: 500px;
-    height: 350px;
+    height: 340px;
     min-width: 300px;
-    min-height: 350px;
+    min-height: 340px;
     margin: 4px;
     perspective: 1000px;
     display: flex;
@@ -147,7 +147,23 @@ export const ProjectsSection = styled.section`
     background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1678841028/resto_cllcjc.png);
   }
   .front .img3 {
-    background-image: url(http://i.imgur.com/I5ABT2v.jpg);
+    background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1678930881/ecommerceapi_rerg59.png);
+  }
+
+  .front .img4 {
+    background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1678931178/pokedex_itiolu.png);
+  }
+
+  .front .img5 {
+    background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1678931566/R_M_ciykfd.png);
+  }
+
+  .front .img6 {
+    background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1678931711/wheater_ndlrbg.png);
+  }
+
+  h2 {
+    color: black;
   }
 
   .back {
@@ -175,6 +191,7 @@ export const ProjectsSection = styled.section`
   .back li {
     line-height: 22px;
     margin: 2px 0 6px 0;
+    color: black;
   }
   .back .btn {
     position: absolute;
@@ -206,10 +223,113 @@ export const ProjectsSection = styled.section`
     opacity: 0;
     transition: all 0.3s ease-out;
   }
-  h2 {
+  .back h2 {
+    color: white;
+    margin-top: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-bottom: 6px;
+  }
+
+  .back .info p {
+    margin-bottom: 5px;
+  }
+
+  .back .info {
+    padding: 0;
+  }
+
+  .front .info {
+    padding-top: 10px;
+  }
+
+  .buttons-container {
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .magic-project {
+    border: 0;
+    background-image: linear-gradient(150deg, #7a1fab, #4a2296, #297b8c);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    overflow: hidden;
+    padding: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.5rem;
+  }
+
+  .boton-project {
+    overflow: hidden;
+    background-color: black;
+    padding: 12px 50px;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+
+  .magic-project:hover .boton {
+    background: none;
+  }
+
+  .magic-project:active {
+    transform: scale(0.9);
+  }
+  .title-project {
+    background-color: black;
+    color: white;
+  }
+  .body-project {
+    padding: 0 16px 16px 16px;
+  }
+`;
+
+export const ContactSection = styled.section`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .form-container {
+    position: absolute;
+    margin-top: 700px;
+    border: 1px solid black;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 4px;
+    width: 40%;
+    box-shadow: 1px 1px 2px 1px rgba(39, 4, 57, 1);
+  }
+  input,
+  textarea {
+    width: 100%;
+    height: 40px;
+    border: solid #acacac 1.75px;
+    border-radius: 5px;
+    padding-left: 7px;
+    margin-bottom: 8px;
     color: black;
   }
-  .buttons-container {
+  .boton-contact {
+    padding: 0.8% 14.35vw;
+  }
+  label {
+    color: black;
+  }
+  .title-contact {
+    background-color: black;
+    color: white;
+    // border: 2px solid transparent;
+  }
+  .form {
+    padding: 20px 50px 10px 50px;
+  }
+  .button-contact {
     display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
   }
 `;

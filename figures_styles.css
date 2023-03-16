@@ -13,6 +13,13 @@
   height: 100vh;
   background-color: black;
 }
+
+.name-home {
+  height: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 /* Información con posición absoluta */
 .header__introduction {
   position: absolute;

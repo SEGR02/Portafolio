@@ -1,131 +1,82 @@
 import React from "react";
-import { ProjectsSection } from "../styled-components/Projects.styled";
-import ecommerceImage from "../assets/ecommerce.png";
-import { CardsSection } from "../styled-components/Cards.styled";
+import { ContactStyled } from "../styled-components/Contact.styled";
+import {
+  ContactSection,
+  ProjectsSection,
+} from "../styled-components/Projects.styled";
 
 const Projects = () => {
   const [isActive, setIsActive] = React.useState(false);
   const [isActive2, setIsActive2] = React.useState(false);
+  const [isActive3, setIsActive3] = React.useState(false);
+  const [isActive4, setIsActive4] = React.useState(false);
+  const [isActive5, setIsActive5] = React.useState(false);
+  const [isActive6, setIsActive6] = React.useState(false);
 
   return (
     <>
       <ProjectsSection>
-        <h1>Projects</h1>
+        <h1 id="projects">Projects</h1>
         <div className="projects-container">
-          <div class="cardContainer">
+          <div className="cardContainer">
             <div
               onClick={(e) => setIsActive2(!isActive2)}
-              class={isActive2 ? "card2 active" : "card2"}
+              className={isActive2 ? "card2 active" : "card2"}
             >
-              <div class="side front">
-                <div class="img img2"></div>
-                <div class="info">
+              <div className="side front">
+                <div className="img img2"></div>
+                <div className="info">
                   <h2>Country Resto</h2>
                   <p>
-                    A stand-on with an exceptional compact stance. Great for
-                    tight spaces and trailering.
+                    An application that provides users with an electronic
+                    restaurant menu to order food by delivery or pickup.
                   </p>
                 </div>
               </div>
-              <div class="side back">
-                <div class="info">
-                  <h2>At a glance</h2>
-                  <div class="reviews">
-                    <svg
-                      fill="#FFC324"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M0 0h24v24H0z" fill="none" />
-                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                      <path d="M0 0h24v24H0z" fill="none" />
-                    </svg>
-                    <svg
-                      fill="#FFC324"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M0 0h24v24H0z" fill="none" />
-                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                      <path d="M0 0h24v24H0z" fill="none" />
-                    </svg>
-                    <svg
-                      fill="#FFC324"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M0 0h24v24H0z" fill="none" />
-                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                      <path d="M0 0h24v24H0z" fill="none" />
-                    </svg>
-                    <svg
-                      fill="#FFC324"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M0 0h24v24H0z" fill="none" />
-                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                      <path d="M0 0h24v24H0z" fill="none" />
-                    </svg>
-                    <svg
-                      fill="#FFC324"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                    >
-                      <defs>
-                        <path d="M0 0h24v24H0V0z" id="a" />
-                      </defs>
-                      <clipPath id="b">
-                        <use overflow="visible" xlink:href="#a" />
-                      </clipPath>
-                      <path
-                        clip-path="url(#b)"
-                        d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-                      />
-                    </svg>
-                    <p>23 Reviews</p>
+              <div className="side back">
+                <div className="info">
+                  <div className="title-project">
+                    <h2>Technologies</h2>
                   </div>
-                  <ul>
-                    <li>
-                      Manage backyard gates with ease with the 36" deck option
-                    </li>
-                    <li>
-                      Your choice of deck sizes ranging from 36", 48", 52" and
-                      60"
-                    </li>
-                    <li>
-                      Updated hip bolstering offers superior operator comfort
-                      and positioning
-                    </li>
-                  </ul>
-                  <div class="buttons-container">
-                    <a
-                      target="_blank"
-                      href="https://c9-20-javareact-fulltime-production.up.railway.app/app#/"
-                    >
-                      <button className="magic">
-                        <span className="boton">Demo</span>
-                      </button>
-                    </a>
-                    <a
-                      target="_blank"
-                      href="https://github.com/No-Country/c9-20-javareact-fulltime"
-                    >
-                      <button className="magic">
-                        <span className="boton">GitHub</span>
-                      </button>
-                    </a>
+                  <div className="body-project">
+                    <p>
+                      <b style={{ color: "black" }}>Frontend:</b> ReactJS,
+                      Redux, Styled-Components, TailWindCss React-Router-Dom,
+                      ReduxToolKit, Axios, Jest, React-Hook-Form,
+                      Testing-Library-React, Rome, Vite
+                    </p>
+                    <p>
+                      <b style={{ color: "black" }}>Backend:</b> Spring
+                      framework (MVC, Data, Security, HATEOAS), Hibernate,
+                      Mysql, Swagger, Maven, Docker
+                    </p>
+                    <b>
+                      <p>Authors:</p>
+                      <p>Sebastian Gomez: Full Stack Developer</p>
+                    </b>
+                    <p>
+                      Sarai Hernandez, Vanina Restelli, Manuel Nacer, Sebastian
+                      De La Cruz, Gaston Gutierrez, Daniel Amado, Marcio
+                      Huacacolqui, Nicolas Canul, Julio Alvarez
+                    </p>
+                    <div className="buttons-container">
+                      <a
+                        target="_blank"
+                        href="https://c9-20-javareact-fulltime-production.up.railway.app/app#/"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">Demo</span>
+                        </button>
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://github.com/No-Country/c9-20-javareact-fulltime"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">GitHub</span>
+                        </button>
+                      </a>
+                    </div>
                     {/* <h4>Learn More</h4>
                     <svg
                       fill="#333"
@@ -142,7 +93,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div class="cardContainer">
+          {/* <div class="cardContainer">
             <div
               onClick={(e) => setIsActive(!isActive)}
               class={isActive ? "card2 active" : "card2"}
@@ -159,111 +110,348 @@ const Projects = () => {
                     E-commerce
                   </h2>
                   <p>
-                    A stand-on with an exceptional compact stance. Great for
-                    tight spaces and trailering.
+                    An application where users buy white and gray line items
+                    sold by a company.
                   </p>
                 </div>
               </div>
               <div class="side back">
                 <div class="info">
-                  <h2>At a glance</h2>
-                  <div class="reviews">
-                    <svg
-                      fill="#FFC324"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M0 0h24v24H0z" fill="none" />
-                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                      <path d="M0 0h24v24H0z" fill="none" />
-                    </svg>
-                    <svg
-                      fill="#FFC324"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M0 0h24v24H0z" fill="none" />
-                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                      <path d="M0 0h24v24H0z" fill="none" />
-                    </svg>
-                    <svg
-                      fill="#FFC324"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M0 0h24v24H0z" fill="none" />
-                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                      <path d="M0 0h24v24H0z" fill="none" />
-                    </svg>
-                    <svg
-                      fill="#FFC324"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M0 0h24v24H0z" fill="none" />
-                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                      <path d="M0 0h24v24H0z" fill="none" />
-                    </svg>
-                    <svg
-                      fill="#FFC324"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                    >
-                      <defs>
-                        <path d="M0 0h24v24H0V0z" id="a" />
-                      </defs>
-                      <clipPath id="b">
-                        <use overflow="visible" xlink:href="#a" />
-                      </clipPath>
-                      <path
-                        clip-path="url(#b)"
-                        d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
-                      />
-                    </svg>
-                    <p>23 Reviews</p>
+                  <div className="title-project">
+                    <h2>Technologies</h2>
                   </div>
-                  <ul>
-                    <li>
-                      Manage backyard gates with ease with the 36" deck option
-                    </li>
-                    <li>
-                      Your choice of deck sizes ranging from 36", 48", 52" and
-                      60"
-                    </li>
-                    <li>
-                      Updated hip bolstering offers superior operator comfort
-                      and positioning
-                    </li>
-                  </ul>
-                  <div class="btn">
-                    <h4>Learn More</h4>
-                    <svg
-                      fill="#333"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
+                  <div className="body-project">
+                    <p>
+                      <b style={{ color: "black" }}>Frontend:</b> ReactJS,
+                      Redux, Styled-Components, TailWindCss React-Router-Dom,
+                      ReduxToolKit, Axios, Jest, React-Hook-Form,
+                      Testing-Library-React, Rome, Vite
+                    </p>
+                    <p>
+                      <b style={{ color: "black" }}>Backend:</b> Spring
+                      framework (MVC, Data, Security, HATEOAS), Hibernate,
+                      Mysql, Swagger, Maven, Docker
+                    </p>
+                    <b>
+                      <p>Authors:</p>
+                      <p>Sebastian Gomez: Full Stack</p>
+                    </b>
+                    <p>
+                      Sarai Hernandez, Vanina Restelli, Manuel Nacer, Sebastian
+                      De La Cruz, Gaston Gutierrez, Daniel Amado, Marcio
+                      Huacacolqui, Nicolas Canul, Julio Alvarez
+                    </p>
+                    <div class="buttons-container">
+                      <a
+                        target="_blank"
+                        href="https://admirable-llama-f5071c.netlify.app/#/"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">Demo</span>
+                        </button>
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://github.com/SEGR02/E-commerceReact"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">GitHub</span>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
+          <div className="cardContainer">
+            <div
+              onClick={(e) => setIsActive3(!isActive3)}
+              className={isActive3 ? "card2 active" : "card2"}
+            >
+              <div className="side front">
+                <div className="img img3"></div>
+                <div className="info">
+                  <h2>E-commerce API</h2>
+                  <p>
+                    An API that allows registering and logging in users,
+                    obtaining and creating products for e-commerce and other
+                    various options.
+                  </p>
+                </div>
+              </div>
+              <div className="side back">
+                <div className="info">
+                  <div className="title-project">
+                    <h2>Technologies</h2>
+                  </div>
+                  <div className="body-project">
+                    <p>
+                      <b style={{ color: "black" }}>Backend:</b> JavaScript,
+                      NodeJS, Express, Sequelize, Swagger, PostgreSQL, Postman
+                    </p>
+                    <b>
+                      <p>Author:</p>
+                      <p>Sebastian Gomez: Backend Developer</p>
+                    </b>
+                    <div
+                      style={{ marginTop: "128px" }}
+                      className="buttons-container"
                     >
-                      <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" />
-                      <path d="M0-.25h24v24H0z" fill="none" />
-                    </svg>
+                      <a
+                        target="_blank"
+                        href="https://ecommerce-academlo-sebas.onrender.com/api/v1/docs/"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">Demo</span>
+                        </button>
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://github.com/SEGR02/ecommerce-api"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">GitHub</span>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div class="cardContainer">
+            <div
+              onClick={(e) => setIsActive4(!isActive4)}
+              class={isActive4 ? "card2 active" : "card2"}
+            >
+              <div class="side front">
+                <div class="img img4"></div>
+                <div class="info">
+                  <h2>PokeDex</h2>
+                  <p>
+                    An application where users can view all the pokemons
+                    filtered by types with their characteristics.
+                  </p>
+                </div>
+              </div>
+              <div class="side back">
+                <div class="info">
+                  <div className="title-project">
+                    <h2>Technologies</h2>
+                  </div>
+                  <div className="body-project">
+                    <p>
+                      <b style={{ color: "black" }}>Frontend:</b> ReactJS,
+                      Redux, Styled-Components, TailWindCss React-Router-Dom,
+                      ReduxToolKit, Axios, Jest, React-Hook-Form,
+                      Testing-Library-React, Rome, Vite
+                    </p>
+                    <p>
+                      <b style={{ color: "black" }}>Backend:</b> Spring
+                      framework (MVC, Data, Security, HATEOAS), Hibernate,
+                      Mysql, Swagger, Maven, Docker
+                    </p>
+                    <b>
+                      <p>Authors:</p>
+                      <p>Sebastian Gomez: Full Stack</p>
+                    </b>
+                    <p>
+                      Sarai Hernandez, Vanina Restelli, Manuel Nacer, Sebastian
+                      De La Cruz, Gaston Gutierrez, Daniel Amado, Marcio
+                      Huacacolqui, Nicolas Canul, Julio Alvarez
+                    </p>
+                    <div class="buttons-container">
+                      <a
+                        target="_blank"
+                        href="https://admirable-llama-f5071c.netlify.app/#/"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">Demo</span>
+                        </button>
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://github.com/SEGR02/E-commerceReact"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">GitHub</span>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
+          <div className="cardContainer">
+            <div
+              onClick={(e) => setIsActive5(!isActive5)}
+              className={isActive5 ? "card2 active" : "card2"}
+            >
+              <div className="side front">
+                <div className="img img5"></div>
+                <div className="info">
+                  <h2>Rick & Morty</h2>
+                  <p>
+                    An application for users who want to see the characters of
+                    the R&M series filter by dimension, with their information.
+                  </p>
+                </div>
+              </div>
+              <div className="side back">
+                <div className="info">
+                  <div className="title-project">
+                    <h2>Technologies</h2>
+                  </div>
+                  <div className="body-project">
+                    <p>
+                      <b style={{ color: "black" }}>Frontend:</b> JavaScript,
+                      React, Axios, HTML, CSS
+                    </p>
+                    <b>
+                      <p>Author:</p>
+                      <p>Sebastian Gomez: Frontend Developer</p>
+                    </b>
+                    <div
+                      style={{ marginTop: "146px" }}
+                      className="buttons-container"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://charming-sorbet-d18b85.netlify.app"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">Demo</span>
+                        </button>
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://github.com/SEGR02/RickAndMorty"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">GitHub</span>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="cardContainer">
+            <div
+              onClick={(e) => setIsActive6(!isActive6)}
+              className={isActive6 ? "card2 active" : "card2"}
+            >
+              <div className="side front">
+                <div className="img img6"></div>
+                <div className="info">
+                  <h2>WheaterApp</h2>
+                  <p>
+                    An application that allows you to see weather information
+                    depending on your current location.
+                  </p>
+                </div>
+              </div>
+              <div className="side back">
+                <div className="info">
+                  <div className="title-project">
+                    <h2>Technologies</h2>
+                  </div>
+                  <div className="body-project">
+                    <p>
+                      <b style={{ color: "black" }}>Frontend:</b> JavaScript,
+                      React, Axios, HTML, CSS
+                    </p>
+                    <b>
+                      <p>Author:</p>
+                      <p>Sebastian Gomez: Frontend Developer</p>
+                    </b>
+                    <div
+                      style={{ marginTop: "146px" }}
+                      className="buttons-container"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://mellow-lily-c066c9.netlify.app"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">Demo</span>
+                        </button>
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://github.com/SEGR02/Weather"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">GitHub</span>
+                        </button>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <ContactSection>
+          <div className="form-container">
+            <div className="title-contact">
+              <h1 id="contact">Contact</h1>
+            </div>
+            <div className="form">
+              <form
+                action="https://formsubmit.co/sebastian.gomz02@gmail.com"
+                method="POST"
+              >
+                <label htmlFor="name">Your name</label>
+                <input
+                  id="name"
+                  placeholder="Name"
+                  type="text"
+                  name="Name"
+                  required
+                />
+                <label htmlFor="email">Email</label>
+                <input
+                  id="email"
+                  placeholder="email@example.com"
+                  type="email"
+                  name="Email"
+                  required
+                />
+                <label htmlFor="subject">Subject</label>
+                <input
+                  id="subject"
+                  placeholder="Full stack vacant"
+                  type="text"
+                  name="Subject"
+                  required
+                />
+                <label htmlFor="message">Message</label>
+                <textarea
+                  placeholder="Can we talk about your experience in a meet?"
+                  name="Message"
+                  id="message"
+                  cols="65"
+                  rows="5"
+                  required
+                ></textarea>
+                <div className="button-contact">
+                  <button
+                    className="magic magic-project magic-contact"
+                    type="submit"
+                  >
+                    <span className="boton boton-project boton-contact">
+                      Send
+                    </span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </ContactSection>
       </ProjectsSection>
     </>
   );
