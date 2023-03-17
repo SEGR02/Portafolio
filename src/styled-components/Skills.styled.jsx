@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SkillsSection = styled.section`
   background: black;
-  padding: 0 200px 0 200px;
+  // padding: 0 200px 0 200px;
   padding-bottom: 15px;
   h1 {
     padding-top: 30px;
@@ -41,6 +41,7 @@ export const SkillsSection = styled.section`
     align-items: center;
     margin: 25px 0 0 0;
     padding-bottom: 25px;
+    padding: 0 200px 15px 200px;
   }
   .icon-manual {
     width: 50px;
@@ -54,5 +55,10 @@ export const SkillsSection = styled.section`
   .background-icon {
     background-color: gray;
     padding: 50px;
+  }
+  h3 {
+    width: 32vw;
+    display: flex;
+    justify-content: center;
   }
 `;

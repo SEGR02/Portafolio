@@ -25,9 +25,11 @@ const AboutMe = () => {
             </p>
           </div>
           <div className="button">
-            <button className="magic">
-              <span className="boton">Contact me</span>
-            </button>
+            <a href="#contact">
+              <button href="#contact" className="magic">
+                <span className="boton">Contact me</span>
+              </button>
+            </a>
           </div>
         </div>
       </section>

@@ -6,7 +6,7 @@ export const ProjectsSection = styled.section`
     rgba(76, 46, 124, 1) 10%,
     rgba(39, 4, 57, 1) 90%
   );
-  padding: 0 150px 350px 150px;
+  padding: 0 10vw 350px 10vw;
   h1 {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -15,11 +15,12 @@ export const ProjectsSection = styled.section`
   }
   .projects-container {
     display: grid;
-    grid-template-columns: repeat(2, 500px);
+    grid-template-columns: repeat(2, 1fr);
     // grid-template: repeat(2, 1fr) / repeat(2, 1fr); //filas columnas
     gap: 5%;
     width: 100%;
     justify-content: center;
+    justify-items: center;
   }
   .proyect-card {
     display: flex;
@@ -71,8 +72,8 @@ export const ProjectsSection = styled.section`
     position: relative;
     width: 500px;
     height: 340px;
-    min-width: 300px;
-    min-height: 340px;
+    // min-width: 300px;
+    // min-height: 340px;
     margin: 4px;
     perspective: 1000px;
     display: flex;
@@ -284,6 +285,11 @@ export const ProjectsSection = styled.section`
   }
   .body-project {
     padding: 0 16px 16px 16px;
+  }
+  @media screen and (max-width: 1250px) {
+    .projects-container {
+      gap: 0;
+    }
   }
 `;
 
