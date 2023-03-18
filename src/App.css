@@ -294,3 +294,60 @@ nav a:hover::before {
     border: none;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  .button {
+    width: 100%;
+    margin-top: 2vh;
+  }
+  .boton {
+    display: flex;
+    justify-content: center;
+    padding: 24px 20vw;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .boton {
+    padding: 24px 19vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .boton {
+    padding: 24px 28vw;
+  }
+  .card {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 651px) {
+  .boton {
+    padding: 24px 27vw;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .boton {
+    padding: 24px 26vw;
+  }
+}
+
+@media screen and (max-width: 551px) {
+  .boton {
+    padding: 24px 24vw;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  .boton {
+    padding: 24px 30vw;
+  }
+  .card {
+    width: 95%;
+  }
+}

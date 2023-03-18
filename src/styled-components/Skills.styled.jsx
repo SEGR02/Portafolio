@@ -61,4 +61,72 @@ export const SkillsSection = styled.section`
     display: flex;
     justify-content: center;
   }
+  @media screen and (max-width: 1270px) {
+    h3 {
+      width: 26vw;
+    }
+  }
+  @media screen and (max-width: 1170px) {
+    h3 {
+      width: 20vw;
+    }
+  }
+  @media screen and (max-width: 1070px) {
+    h3 {
+      width: 14vw;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    h3 {
+      width: 10vw;
+    }
+  }
+  @media screen and (max-width: 970px) {
+    .icons-container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+    }
+    h3 {
+      width: 50vw;
+    }
+  }
+  @media screen and (max-width: 970px) {
+    h3 {
+      width: 45vw;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    h3 {
+      width: 40vw;
+    }
+  }
+  @media screen and (max-width: 740px) {
+    h3 {
+      width: 35vw;
+    }
+  }
+  @media screen and (max-width: 680px) {
+    h3 {
+      width: 30vw;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    h3 {
+      width: 25vw;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    h3 {
+      width: 20vw;
+    }
+  }
+  @media screen and (max-width: 560px) {
+    h3 {
+      width: 50vw;
+    }
+    .icons-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
 `;

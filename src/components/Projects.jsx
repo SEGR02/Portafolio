@@ -195,7 +195,7 @@ const Projects = () => {
                       <p>Sebastian Gomez: Backend Developer</p>
                     </b>
                     <div
-                      style={{ marginTop: "128px" }}
+                      style={{ marginTop: "174px" }}
                       className="buttons-container"
                     >
                       <a
@@ -314,7 +314,7 @@ const Projects = () => {
                       <p>Sebastian Gomez: Frontend Developer</p>
                     </b>
                     <div
-                      style={{ marginTop: "146px" }}
+                      style={{ marginTop: "188px" }}
                       className="buttons-container"
                     >
                       <a
@@ -369,7 +369,7 @@ const Projects = () => {
                       <p>Sebastian Gomez: Frontend Developer</p>
                     </b>
                     <div
-                      style={{ marginTop: "146px" }}
+                      style={{ marginTop: "188px" }}
                       className="buttons-container"
                     >
                       <a

@@ -291,6 +291,49 @@ export const ProjectsSection = styled.section`
       gap: 0;
     }
   }
+  @media screen and (max-width: 1008px) {
+    .projects-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .front .img1 {
+      background-image: url();
+    }
+    .front .img2 {
+      background-image: url();
+    }
+    .front .img3 {
+      background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1679129053/swaggerMobile_x4gws6.jpg);
+    }
+
+    .front .img4 {
+      background-image: url();
+    }
+
+    .front .img5 {
+      background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1679129053/RyMMobile_kxhjxb.jpg);
+      background-position: top;
+    }
+
+    .front .img6 {
+      background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1679129053/WheatherMobile_i400ua.jpg);
+    }
+    .cardContainer {
+      width: 250px;
+      height: 385px;
+    }
+    .boton-project {
+      padding: 12px 17px;
+    }
+    .back .info p {
+      font-size: 0.8rem;
+      margin-bottom: 4px;
+    }
+    .buttons-container {
+      margin-top: 0;
+    }
+  }
 `;
 
 export const ContactSection = styled.section`
@@ -319,6 +362,8 @@ export const ContactSection = styled.section`
     color: black;
   }
   .boton-contact {
+    display: flex;
+    justify-content: center;
     padding: 0.8% 14.35vw;
   }
   label {
@@ -337,5 +382,21 @@ export const ContactSection = styled.section`
     justify-content: center;
     padding-top: 8px;
     padding-bottom: 10px;
+  }
+  @media screen and (max-width: 1008px) {
+    .boton-contact {
+      padding: 0.8% 10vw;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .form {
+      padding: 20px 35px 10px 35px;
+    }
+    .form-container {
+      width: 65%;
+    }
+    .boton-contact {
+      padding: 0.8% 25vw;
+    }
   }
 `;
