@@ -88,6 +88,14 @@ export const ProjectsSection = styled.section`
     display: none;
   }
 
+  .readmore {
+    color: #c1c1c1;
+  }
+
+  .readmore:hover {
+    color: black;
+  }
+
   .card2 {
     display: inline-block;
     width: 100%;

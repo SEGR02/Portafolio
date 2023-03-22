@@ -100,8 +100,8 @@ const Projects = () => {
                   <h2>E-commerce API</h2>
                   <p>
                     An API that allows registering and logging in users,
-                    obtaining and creating products for e-commerce and other
-                    various options.
+                    obtaining and creating products for e-commerce
+                    <b className="readmore"> Read more</b>
                   </p>
                 </div>
               </div>
@@ -217,7 +217,8 @@ const Projects = () => {
                   <h2>Rick & Morty</h2>
                   <p>
                     An application for users who want to see the characters of
-                    the R&M series filter by dimension, with their information.
+                    the R&M series filter by dimension, with their information
+                    <b className="readmore"> Read more</b>
                   </p>
                 </div>
               </div>
@@ -269,7 +270,8 @@ const Projects = () => {
                   <h2>WheaterApp</h2>
                   <p>
                     An application that allows you to see weather information
-                    depending on your current location.
+                    depending on your current location
+                    <b className="readmore"> Read more</b>
                   </p>
                 </div>
               </div>
@@ -321,7 +323,8 @@ const Projects = () => {
                   <h2>Country Resto</h2>
                   <p>
                     An application that provides users with an electronic
-                    restaurant menu to order food by delivery or pickup.
+                    restaurant menu to order food by delivery or pickup
+                    <b className="readmore"> Read more</b>
                   </p>
                 </div>
               </div>
