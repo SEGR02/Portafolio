@@ -26,11 +26,12 @@
     />
     <link rel="stylesheet" href="./figures_styles.css" />
     <link rel="stylesheet" href="/src/App.css" />
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   </head>
   <body>
     <header id="home" class="header">
       <div>
-        <canvas style="width: 99.05vw" class="background"></canvas>
+        <canvas class="background"></canvas>
         <div class="header__introduction">
           <div class="name-home">
             <h1 style="font-family: 'Orbitron', sans-serif">
@@ -76,70 +77,12 @@
       src="https://kit.fontawesome.com/a6dbc01c9d.js"
       crossorigin="anonymous"
     ></script>
-    <!-- <nav>
-      <div class="name">
-        <a href="#">Sebastian Gomez</a>
-      </div>
-      <div class="options">
-        <a href="#">Home</a>
-        <a href="#">About me</a>
-        <a href="#">Skills</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
-      </div>
-    </nav>
-    <header class="header">
-      <div>
-        <canvas class="background"></canvas>
-        <div class="header__introduction">
-          <h1 class="typed"></h1>
-        </div>
-      </div>
-    </header>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-    <script src="./background.js"></script>
     <script>
-      // Run Background.
-      window.onload = function () {
-        Particles.init({
-          selector: ".background",
-          color: "#87b7ff",
-          maxParticles: 110,
-          connectParticles: true,
-          responsive: [
-            {
-              breakpoint: 947,
-              options: {
-                maxParticles: 100,
-              },
-            },
-            {
-              breakpoint: 847,
-              options: {
-                maxParticles: 90,
-              },
-            },
-            {
-              breakpoint: 647,
-              options: {
-                maxParticles: 76,
-              },
-            },
-            {
-              breakpoint: 477,
-              options: {
-                maxParticles: 46,
-              },
-            },
-            {
-              breakpoint: 300,
-              options: {
-                maxParticles: 26,
-              },
-            },
-          ],
-        });
-      };
-    </script> -->
+      window.sr = ScrollReveal();
+      sr.reveal("#home", {
+        duration: 2000,
+        origin: "bottom",
+      });
+    </script>
   </body>
 </html>

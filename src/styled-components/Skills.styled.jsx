@@ -129,4 +129,18 @@ export const SkillsSection = styled.section`
       grid-template-columns: repeat(3, 1fr);
     }
   }
+  @media screen and (max-width: 413px) {
+    .icons-container {
+      display: grid;
+      grid-template-columns: repeat(2, 50px);
+      padding: 0;
+      padding-bottom: 15px;
+    }
+    h1 {
+      padding-bottom: 15px;
+    }
+    h3 {
+      padding-top: 10px;
+    }
+  }
 `;

@@ -286,6 +286,12 @@ export const ProjectsSection = styled.section`
   .body-project {
     padding: 0 16px 16px 16px;
   }
+  .simple {
+    margin-top: 140px;
+  }
+  .semi-simple {
+    margin-top: 122px;
+  }
   @media screen and (max-width: 1250px) {
     .projects-container {
       gap: 0;
@@ -294,6 +300,7 @@ export const ProjectsSection = styled.section`
   @media screen and (max-width: 1008px) {
     .projects-container {
       grid-template-columns: repeat(1, 1fr);
+      gap: 1%;
     }
   }
   @media screen and (max-width: 550px) {
@@ -301,7 +308,7 @@ export const ProjectsSection = styled.section`
       background-image: url();
     }
     .front .img2 {
-      background-image: url();
+      background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1679430678/finalresto_och4zl.png);
     }
     .front .img3 {
       background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1679129053/swaggerMobile_x4gws6.jpg);
@@ -332,6 +339,12 @@ export const ProjectsSection = styled.section`
     }
     .buttons-container {
       margin-top: 0;
+    }
+    .simple {
+      margin-top: 187.5px;
+    }
+    .semi-simple {
+      margin-top: 173px;
     }
   }
 `;
@@ -397,6 +410,28 @@ export const ContactSection = styled.section`
     }
     .boton-contact {
       padding: 0.8% 25vw;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .form-container {
+      width: 75%;
+    }
+    .form {
+      padding: 20px 25px 10px 25px;
+    }
+    .boton-contact {
+      padding: 0.8% 28vw;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .form-container {
+      width: 90%;
+    }
+    .form {
+      padding: 20px 15px 10px 15px;
+    }
+    .boton-contact {
+      padding: 0.8% 33vw;
     }
   }
 `;

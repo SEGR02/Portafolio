@@ -16,22 +16,42 @@ export const NavbarStyled = styled.nav`
     overflow: hidden;
   }
 
-  .mobile_options {
+  .options svg {
     display: none;
   }
 
   @media screen and (max-width: 747px) {
-    nav .options {
-      display: none;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background-color: black;
+    z-index: 1;
+    position: fixed;
+    top: initial;
+    bottom: 0px;
+    width: 100%;
+    overflow: hidden;
 
-    .mobile_options {
+    .options svg {
+      // font-size: 22px;
       display: block;
-      margin-right: 25px;
     }
 
-    svg {
-      font-size: 30px;
+    .options {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .options a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-size: 0.63rem;
+    }
+    .name {
+      display: none;
     }
   }
 `;

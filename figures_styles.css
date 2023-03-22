@@ -6,6 +6,10 @@
   font-family: "Atkinson Hyperlegible", sans-serif;
   color: white;
 }
+
+canvas {
+  width: 100%;
+}
 /* header con posición relativa, medidas fijas y fondo de color */
 .header {
   position: relative;

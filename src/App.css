@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   display: flex;
   flex-direction: column;
@@ -31,7 +35,7 @@ a:hover {
 
 a {
   text-decoration: none;
-  margin: 0 10px 0 10px;
+  margin: 0 1%;
 }
 
 canvas {
@@ -61,9 +65,9 @@ canvas {
   }
 }
 
-header {
+/* header {
   margin-top: 4.8%;
-}
+} */
 
 svg {
   font-size: 50px;
@@ -276,25 +280,6 @@ nav a:hover::before {
   width: 100%;
 }
 
-@media screen and (max-width: 747px) {
-  nav .options {
-    display: none;
-  }
-
-  .mobile_options {
-    display: block;
-  }
-
-  .mobile_menu {
-    padding: 0;
-    border: none;
-  }
-
-  .mobile_menu:hover {
-    border: none;
-  }
-}
-
 @media screen and (max-width: 800px) {
   .container {
     flex-direction: column;
@@ -349,5 +334,94 @@ nav a:hover::before {
   }
   .card {
     width: 95%;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .boton {
+    padding: 24px 28.5vw;
+  }
+}
+
+@media screen and (max-width: 464px) {
+  .boton {
+    padding: 24px 27vw;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .name-home h1 {
+    font-size: 1.2rem;
+  }
+  .typing h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .boton {
+    padding: 24px 29.5vw;
+  }
+  .section1 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  .boton {
+    padding: 24px 28.5vw;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .boton {
+    padding: 24px 27.5vw;
+  }
+}
+
+@media screen and (max-width: 377px) {
+  .boton {
+    padding: 24px 28vw;
+  }
+  .section1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .boton {
+    padding: 24px 27vw;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .boton {
+    padding: 24px 26vw;
+  }
+}
+
+@media screen and (max-width: 312px) {
+  .boton {
+    padding: 24px 25vw;
+  }
+}
+
+@media screen and (max-width: 299px) {
+  .boton {
+    padding: 24px 24vw;
+  }
+}
+
+@media screen and (max-width: 288px) {
+  .boton {
+    padding: 24px 23vw;
+  }
+}
+
+@media screen and (max-width: 282px) {
+  .boton {
+    padding: 24px 20vw;
   }
 }
