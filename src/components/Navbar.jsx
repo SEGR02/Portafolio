@@ -3,6 +3,10 @@ import { NavbarStyled } from "../styled-components/Navbar.styled";
 
 const Navbar = () => {
   useEffect(() => {
+    sr.reveal("#home", {
+      duration: 2000,
+      origin: "bottom",
+    });
     sr.reveal("#aboutme", {
       duration: 2000,
       origin: "bottom",
