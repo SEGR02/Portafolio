@@ -89,11 +89,12 @@ export const ProjectsSection = styled.section`
   }
 
   .readmore {
-    color: #c1c1c1;
+    color: black;
   }
 
   .readmore:hover {
-    color: black;
+    color: #a061c3;
+    transition: all 0.5s ease-in-out;
   }
 
   .card2 {
