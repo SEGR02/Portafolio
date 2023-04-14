@@ -91,6 +91,71 @@ const Projects = () => {
           </div> */}
           <div className="cardContainer">
             <div
+              onClick={(e) => setIsActive2(!isActive2)}
+              className={isActive2 ? "card2 active" : "card2"}
+            >
+              <div className="side front">
+                <div className="img img2"></div>
+                <div className="info">
+                  <h2>Country Resto</h2>
+                  <p>
+                    An application that provides users with an electronic
+                    restaurant menu to order food by delivery or pickup
+                    <b className="readmore"> Read more</b>
+                  </p>
+                </div>
+              </div>
+              <div className="side back">
+                <div className="info">
+                  <div className="title-project">
+                    <h2>Technologies</h2>
+                  </div>
+                  <div className="body-project">
+                    <p>
+                      <b style={{ color: "black" }}>Frontend:</b> ReactJS,
+                      Redux, Styled-Components, TailWindCss React-Router-Dom,
+                      ReduxToolKit, Axios, Jest, React-Hook-Form,
+                      Testing-Library-React, Rome, Vite
+                    </p>
+                    <p>
+                      <b style={{ color: "black" }}>Backend:</b> Spring
+                      framework (MVC, Data, Security, HATEOAS), Hibernate,
+                      Mysql, Swagger, Maven, Docker
+                    </p>
+                    <b>
+                      <p>Authors:</p>
+                      <p>Sebastian Gomez: Full Stack Developer</p>
+                    </b>
+                    <p>
+                      Sarai Hernandez, Vanina Restelli, Manuel Nacer, Sebastian
+                      De La Cruz, Gaston Gutierrez, Daniel Amado, Marcio
+                      Huacacolqui, Nicolas Canul, Julio Alvarez
+                    </p>
+                    <div className="buttons-container">
+                      <a
+                        target="_blank"
+                        href="https://c9-20-javareact-fulltime-production.up.railway.app/app#/"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">Demo</span>
+                        </button>
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://github.com/No-Country/c9-20-javareact-fulltime"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">GitHub</span>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="cardContainer">
+            <div
               onClick={(e) => setIsActive3(!isActive3)}
               className={isActive3 ? "card2 active" : "card2"}
             >
@@ -307,82 +372,6 @@ const Projects = () => {
                         </button>
                       </a>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="cardContainer">
-            <div
-              onClick={(e) => setIsActive2(!isActive2)}
-              className={isActive2 ? "card2 active" : "card2"}
-            >
-              <div className="side front">
-                <div className="img img2"></div>
-                <div className="info">
-                  <h2>Country Resto</h2>
-                  <p>
-                    An application that provides users with an electronic
-                    restaurant menu to order food by delivery or pickup
-                    <b className="readmore"> Read more</b>
-                  </p>
-                </div>
-              </div>
-              <div className="side back">
-                <div className="info">
-                  <div className="title-project">
-                    <h2>Technologies</h2>
-                  </div>
-                  <div className="body-project">
-                    <p>
-                      <b style={{ color: "black" }}>Frontend:</b> ReactJS,
-                      Redux, Styled-Components, TailWindCss React-Router-Dom,
-                      ReduxToolKit, Axios, Jest, React-Hook-Form,
-                      Testing-Library-React, Rome, Vite
-                    </p>
-                    <p>
-                      <b style={{ color: "black" }}>Backend:</b> Spring
-                      framework (MVC, Data, Security, HATEOAS), Hibernate,
-                      Mysql, Swagger, Maven, Docker
-                    </p>
-                    <b>
-                      <p>Authors:</p>
-                      <p>Sebastian Gomez: Full Stack Developer</p>
-                    </b>
-                    <p>
-                      Sarai Hernandez, Vanina Restelli, Manuel Nacer, Sebastian
-                      De La Cruz, Gaston Gutierrez, Daniel Amado, Marcio
-                      Huacacolqui, Nicolas Canul, Julio Alvarez
-                    </p>
-                    <div className="buttons-container">
-                      <a
-                        target="_blank"
-                        href="https://c9-20-javareact-fulltime-production.up.railway.app/app#/"
-                      >
-                        <button className="magic magic-project">
-                          <span className="boton boton-project">Waiting</span>
-                        </button>
-                      </a>
-                      <a
-                        target="_blank"
-                        href="https://github.com/No-Country/c9-20-javareact-fulltime"
-                      >
-                        <button className="magic magic-project">
-                          <span className="boton boton-project">GitHub</span>
-                        </button>
-                      </a>
-                    </div>
-                    {/* <h4>Learn More</h4>
-                    <svg
-                      fill="#333"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" />
-                      <path d="M0-.25h24v24H0z" fill="none" />
-                    </svg> */}
                   </div>
                 </div>
               </div>
