@@ -134,7 +134,7 @@ const Projects = () => {
                     <div className="buttons-container">
                       <a
                         target="_blank"
-                        href="https://c9-20-javareact-fulltime-production.up.railway.app/app#/"
+                        href="https://c9-20-javareact-fulltime-production-2ad1.up.railway.app/app#"
                       >
                         <button className="magic magic-project">
                           <span className="boton boton-project">Demo</span>
