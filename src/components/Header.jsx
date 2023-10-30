@@ -211,7 +211,7 @@ const Header = () => {
             <div className="cv">
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1dvaj33r-rSj5cOnvh5ba77l7Y03s58kx/view"
+                href="https://drive.google.com/file/d/10u8xgZnSn6BY9n7M1WmPpKcYYoWswcb6/view"
               >
                 <button className="homeButton">Download CV</button>
               </a>
