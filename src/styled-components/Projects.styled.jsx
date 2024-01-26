@@ -166,11 +166,11 @@ export const ProjectsSection = styled.section`
   }
 
   .front .img5 {
-    background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1678931566/R_M_ciykfd.png);
+    background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1706292775/pidelo1_ouxbbv.png);
   }
 
   .front .img6 {
-    background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1678931711/wheater_ndlrbg.png);
+    background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1706294547/treasurymap222_1_lhtfai.png);
   }
 
   h2 {
@@ -327,12 +327,12 @@ export const ProjectsSection = styled.section`
     }
 
     .front .img5 {
-      background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1679129053/RyMMobile_kxhjxb.jpg);
+      background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1706293251/pidelo2_ulhomq.png);
       background-position: top;
     }
 
     .front .img6 {
-      background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1679129053/WheatherMobile_i400ua.jpg);
+      background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1706294693/treasurymap22233333_i9eq9l.png);
     }
     .cardContainer {
       width: 250px;
@@ -347,12 +347,6 @@ export const ProjectsSection = styled.section`
     }
     .buttons-container {
       margin-top: 0;
-    }
-    .simple {
-      margin-top: 187.5px;
-    }
-    .semi-simple {
-      margin-top: 173px;
     }
   }
 `;

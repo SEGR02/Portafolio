@@ -338,10 +338,10 @@ const Projects = () => {
               <div className="side front">
                 <div className="img img5"></div>
                 <div className="info">
-                  <h2>Rick & Morty</h2>
+                  <h2>Pídelo</h2>
                   <p>
-                    An application for users who want to see the characters of
-                    the R&M series filter by dimension, with their information
+                    A website that will allow you to take your business to the
+                    next level by expanding to sell online
                     <b className="readmore"> Read more</b>
                   </p>
                 </div>
@@ -354,8 +354,8 @@ const Projects = () => {
                   <div className="body-project">
                     <div>
                       <p>
-                        <b style={{ color: "black" }}>Frontend:</b> JavaScript,
-                        React, Axios, HTML, CSS
+                        <b style={{ color: "black" }}>Frontend:</b> Next.js,
+                        TypeScript, React, HTML, CSS
                       </p>
                       <b>
                         <p>Author:</p>
@@ -365,7 +365,7 @@ const Projects = () => {
                     <div className="buttons-container simple">
                       <a
                         target="_blank"
-                        href="https://charming-sorbet-d18b85.netlify.app"
+                        href="https://pidelo-web-app.vercel.app"
                       >
                         <button className="magic magic-project">
                           <span className="boton boton-project">Demo</span>
@@ -373,7 +373,7 @@ const Projects = () => {
                       </a>
                       <a
                         target="_blank"
-                        href="https://github.com/SEGR02/RickAndMorty"
+                        href="https://github.com/SEGR02/pidelo-web-app"
                       >
                         <button className="magic magic-project">
                           <span className="boton boton-project">GitHub</span>
@@ -393,10 +393,10 @@ const Projects = () => {
               <div className="side front">
                 <div className="img img6"></div>
                 <div className="info">
-                  <h2>WheaterApp</h2>
+                  <h2>Treasury Map</h2>
                   <p>
-                    An application that allows you to see weather information
-                    depending on your current location
+                    A website that hosts the best companies in the world
+                    classified by their strength
                     <b className="readmore"> Read more</b>
                   </p>
                 </div>
@@ -409,26 +409,24 @@ const Projects = () => {
                   <div className="body-project">
                     <div>
                       <p>
-                        <b style={{ color: "black" }}>Frontend:</b> JavaScript,
-                        React, Axios, HTML, CSS
+                        <b style={{ color: "black" }}>Frontend:</b> Next.js,
+                        React, Html, Css, Axios,
                       </p>
                       <b>
-                        <p>Author:</p>
-                        <p>Sebastian Gomez: Frontend Developer</p>
+                        <p>Authors:</p>
+                        <p>Sebastian Gomez: Full Stack</p>
+                        <p>Manuel Nácer: Full Stack</p>
                       </b>
                     </div>
                     <div className="buttons-container simple">
-                      <a
-                        target="_blank"
-                        href="https://mellow-lily-c066c9.netlify.app"
-                      >
+                      <a target="_blank" href="https://treasurymap.com">
                         <button className="magic magic-project">
                           <span className="boton boton-project">Demo</span>
                         </button>
                       </a>
                       <a
                         target="_blank"
-                        href="https://github.com/SEGR02/Weather"
+                        href="https://github.com/nacermanuel/treasurymap_backend"
                       >
                         <button className="magic magic-project">
                           <span className="boton boton-project">GitHub</span>
