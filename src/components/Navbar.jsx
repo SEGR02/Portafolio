@@ -30,7 +30,7 @@ const Navbar = () => {
       <NavbarStyled>
         <div className="navbar-container">
           <div className="name">
-            <a href="#">Sebastian Gomez</a>
+            <a href="#">Sebastián Gómez</a>
           </div>
           <div className="options">
             <a href="#home">

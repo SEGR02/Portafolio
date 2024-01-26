@@ -6,7 +6,7 @@ const Contact = () => {
     <>
       <ContactStyled>
         <p>All rights reserved</p>
-        <p>Sebastian Gomez ©</p>
+        <p>Sebastian Gómez ©</p>
       </ContactStyled>
     </>
   );

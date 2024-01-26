@@ -140,6 +140,7 @@ export const ProjectsSection = styled.section`
   }
   .card2 .info {
     padding: 16px;
+    height: 80%;
   }
 
   .front .img {
@@ -151,7 +152,7 @@ export const ProjectsSection = styled.section`
     height: 250px;
   }
   .front .img1 {
-    background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1678838439/ecommerce_nm1wsq.png);
+    background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1706283076/playstore2_oiahlm.png);
   }
   .front .img2 {
     background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1678841028/resto_cllcjc.png);
@@ -294,12 +295,10 @@ export const ProjectsSection = styled.section`
   }
   .body-project {
     padding: 0 16px 16px 16px;
-  }
-  .simple {
-    margin-top: 140px;
-  }
-  .semi-simple {
-    margin-top: 122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
   }
   @media screen and (max-width: 1250px) {
     .projects-container {
@@ -314,7 +313,7 @@ export const ProjectsSection = styled.section`
   }
   @media screen and (max-width: 550px) {
     .front .img1 {
-      background-image: url();
+      background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1706285094/playstore4_stabke.png);
     }
     .front .img2 {
       background-image: url(https://res.cloudinary.com/doxahduh8/image/upload/v1679430678/finalresto_och4zl.png);
@@ -382,6 +381,7 @@ export const ContactSection = styled.section`
     padding-left: 7px;
     margin-bottom: 8px;
     color: black;
+    resize: vertical;
   }
   .boton-contact {
     display: flex;

@@ -18,6 +18,63 @@ const Projects = () => {
       <ProjectsSection>
         <h1 id="projects">Projects</h1>
         <div className="projects-container">
+          <div class="cardContainer">
+            <div
+              onClick={(e) => setIsActive(!isActive)}
+              class={isActive ? "card2 active" : "card2"}
+            >
+              <div class="side front">
+                <div class="img img1"></div>
+                <div class="info">
+                  <h2>App-Gerencial</h2>
+                  <p>
+                    A mobile application that provides users with a graphical
+                    interface to obtain accounting calculations of their
+                    finances<b className="readmore"> Read more</b>
+                  </p>
+                </div>
+              </div>
+              <div class="side back">
+                <div class="info">
+                  <div className="title-project">
+                    <h2>Technologies</h2>
+                  </div>
+                  <div className="body-project">
+                    <div>
+                      <p>
+                        <b style={{ color: "black" }}>Frontend:</b> Ionic,
+                        React, Android Studio, Xcode, TypeScript, Html, Css,
+                        Capacitor, Axios, Chart.js, cordova
+                      </p>
+                      <b>
+                        <p>Authors:</p>
+                        <p>Sebastian Gomez: Full Stack</p>
+                        <p>Expinn Technology: Backend</p>
+                      </b>
+                    </div>
+                    <div class="buttons-container">
+                      <a
+                        target="_blank"
+                        href="https://admirable-llama-f5071c.netlify.app/#/"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">Demo</span>
+                        </button>
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://github.com/SEGR02/E-commerceReact"
+                      >
+                        <button className="magic magic-project">
+                          <span className="boton boton-project">GitHub</span>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           {/* <div class="cardContainer">
             <div
               onClick={(e) => setIsActive(!isActive)}
@@ -89,9 +146,9 @@ const Projects = () => {
               </div>
             </div>
           </div> */}
-          <div className="cardContainer">
+          {/* <div className="cardContainer">
             <div
-              onClick={(e) => setIsActive2(!isActive2)}
+              onClick={() => setIsActive2(!isActive2)}
               className={isActive2 ? "card2 active" : "card2"}
             >
               <div className="side front">
@@ -153,10 +210,10 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="cardContainer">
             <div
-              onClick={(e) => setIsActive3(!isActive3)}
+              onClick={() => setIsActive3(!isActive3)}
               className={isActive3 ? "card2 active" : "card2"}
             >
               <div className="side front">
@@ -176,14 +233,16 @@ const Projects = () => {
                     <h2>Technologies</h2>
                   </div>
                   <div className="body-project">
-                    <p>
-                      <b style={{ color: "black" }}>Backend:</b> JavaScript,
-                      NodeJS, Express, Sequelize, Swagger, PostgreSQL, Postman
-                    </p>
-                    <b>
-                      <p>Author:</p>
-                      <p>Sebastian Gomez: Backend Developer</p>
-                    </b>
+                    <div>
+                      <p>
+                        <b style={{ color: "black" }}>Backend:</b> JavaScript,
+                        NodeJS, Express, Sequelize, Swagger, PostgreSQL, Postman
+                      </p>
+                      <b>
+                        <p>Author:</p>
+                        <p>Sebastian Gomez: Backend Developer</p>
+                      </b>
+                    </div>
                     <div className="buttons-container semi-simple">
                       <a
                         target="_blank"
@@ -293,14 +352,16 @@ const Projects = () => {
                     <h2>Technologies</h2>
                   </div>
                   <div className="body-project">
-                    <p>
-                      <b style={{ color: "black" }}>Frontend:</b> JavaScript,
-                      React, Axios, HTML, CSS
-                    </p>
-                    <b>
-                      <p>Author:</p>
-                      <p>Sebastian Gomez: Frontend Developer</p>
-                    </b>
+                    <div>
+                      <p>
+                        <b style={{ color: "black" }}>Frontend:</b> JavaScript,
+                        React, Axios, HTML, CSS
+                      </p>
+                      <b>
+                        <p>Author:</p>
+                        <p>Sebastian Gomez: Frontend Developer</p>
+                      </b>
+                    </div>
                     <div className="buttons-container simple">
                       <a
                         target="_blank"
@@ -346,14 +407,16 @@ const Projects = () => {
                     <h2>Technologies</h2>
                   </div>
                   <div className="body-project">
-                    <p>
-                      <b style={{ color: "black" }}>Frontend:</b> JavaScript,
-                      React, Axios, HTML, CSS
-                    </p>
-                    <b>
-                      <p>Author:</p>
-                      <p>Sebastian Gomez: Frontend Developer</p>
-                    </b>
+                    <div>
+                      <p>
+                        <b style={{ color: "black" }}>Frontend:</b> JavaScript,
+                        React, Axios, HTML, CSS
+                      </p>
+                      <b>
+                        <p>Author:</p>
+                        <p>Sebastian Gomez: Frontend Developer</p>
+                      </b>
+                    </div>
                     <div className="buttons-container simple">
                       <a
                         target="_blank"

@@ -161,7 +161,7 @@ const Header = () => {
           <div className="header__introduction">
             <div className="name-home">
               <h1 style={{ fontFamily: "'Orbitron', sans-serif" }}>
-                &lt;Sebastian Gomez /&gt;
+                &lt;Sebastián Gómez /&gt;
               </h1>
             </div>
             <TypeAnimation

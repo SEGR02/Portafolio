@@ -8,12 +8,13 @@ const AboutMe = () => {
         <div className="container">
           <div className="card">
             <p align="left">
-              Regards!, I'm
-              <b> TSU in Computer Science & Web Full Stack Developer</b>, at
-              this moment I'm studing to graduate as a <b>Computer Engineer</b>,
-              my more solid stack is with
-              <b> ReactJS + NodeJS with JavaScript</b> In addition to
-              fundamental tools such as <b>Git, HTML & CSS.</b>
+              Regards!, I'm{" "}
+              <b>
+                Bachelor of Science in Computer Engineering & Full Stack
+                Developer.{" "}
+              </b>
+              My experience ranges from landing pages to end-to-end websites. I
+              also have experience in mobile development.
               <br />
               Likewise, among my soft skills highlights are{" "}
               <b>
@@ -21,7 +22,7 @@ const AboutMe = () => {
                 problem-solving ability, resilience, commitment.
               </b>
               <br />
-              <p className="author">Sebastian Gomez</p>
+              <p className="author">Sebastián Gómez</p>
             </p>
           </div>
           <div className="button">
