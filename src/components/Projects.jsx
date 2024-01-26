@@ -55,7 +55,7 @@ const Projects = () => {
                     <div class="buttons-container">
                       <a
                         target="_blank"
-                        href="https://admirable-llama-f5071c.netlify.app/#/"
+                        href="https://play.google.com/store/apps/details?id=app.gerencial&pli=1"
                       >
                         <button className="magic magic-project">
                           <span className="boton boton-project">Demo</span>
@@ -63,7 +63,7 @@ const Projects = () => {
                       </a>
                       <a
                         target="_blank"
-                        href="https://github.com/SEGR02/E-commerceReact"
+                        href="https://github.com/SEGR02/App-Gerencial"
                       >
                         <button className="magic magic-project">
                           <span className="boton boton-project">GitHub</span>
@@ -420,7 +420,7 @@ const Projects = () => {
                     <div className="buttons-container simple">
                       <a
                         target="_blank"
-                        href="https://play.google.com/store/apps/details?id=app.gerencial&pli=1"
+                        href="https://mellow-lily-c066c9.netlify.app"
                       >
                         <button className="magic magic-project">
                           <span className="boton boton-project">Demo</span>
@@ -428,7 +428,7 @@ const Projects = () => {
                       </a>
                       <a
                         target="_blank"
-                        href="https://github.com/SEGR02/App-Gerencial"
+                        href="https://github.com/SEGR02/Weather"
                       >
                         <button className="magic magic-project">
                           <span className="boton boton-project">GitHub</span>
